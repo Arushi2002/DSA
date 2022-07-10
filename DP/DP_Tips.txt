@@ -1,0 +1,3 @@
+https://leetcode.com/problems/min-cost-climbing-stairs/discuss/773865/A-Beginner's-Guide-on-DP-validation-and-How-to-come-up-with-a-Recursive-solution-Python-3
+
+https://leetcode.com/problems/min-cost-climbing-stairs/discuss/1256616/C%2B%2BPython-Simple-Bottom-up-DP-From-O(N)-to-O(1)-space-Clean-and-Concise

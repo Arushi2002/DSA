@@ -21,7 +21,15 @@ public:
         return arr[n];
     }
     //Another method is recursion +memoization
-  
+    //Top_down
+    int t[46];
+    int climbStairs(int n) {
+        if(n==1) {t[n]=1; return 1;}
+        if(n==2) {t[n]=2; return 2;}
+        else if(t[n]!=0) return t[n];
+        t[n] = climbStairs(n-1)+climbStairs(n-2);
+        return t[n];
+    }
     //Normal doesnt work as it has O(n2) complexity
     /*
     int climbStairs(int n) {

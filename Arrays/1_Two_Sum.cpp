@@ -5,7 +5,7 @@ Brute Force Solution
 TC: O(n^2)
 SC: O(1)
 */
-/*class Solution {
+class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> result(2,0);
@@ -23,14 +23,15 @@ public:
             }
         }
         return result;
-    }*/
+    }
+};
 /*
 M2
 Hash map Solution
 TC: O(n)
 SC: O(n)
 */
-/*
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -57,7 +58,7 @@ Sorting Solution
 TC: O(nlogn)
 SC: O(n)
 */
-/*class Solution {
+class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         int n = nums.size();
@@ -78,4 +79,4 @@ public:
         }
         return {};
     }
-};*/
+};

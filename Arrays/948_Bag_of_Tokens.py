@@ -27,7 +27,7 @@ class Solution:
                         power-=tokens[0]
                         score+=1
                         tokens.remove(tokens[0])
-                   
+                    
         
         return score
     

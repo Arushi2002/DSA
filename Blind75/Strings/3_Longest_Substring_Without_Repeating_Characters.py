@@ -27,8 +27,7 @@
 #         return lenn
                 
 #Neetcode
-#python set is ordered 
-#s[0],s[1] like list
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         charSet=set()
